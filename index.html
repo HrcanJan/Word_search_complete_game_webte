@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Vsetko prevzate z w3schools -->
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" content="#D90B1C">
+		<title>Word Search</title>
+		<link rel = "stylesheet" href = "css/style.css">
+		<link rel="manifest" href="manifest.json">
+		<link rel="icon" type="image/x-icon" href="fei.png">
+		<link rel="apple-touch-icon" href="fei.png">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="nav_links">
+					<li><a href="https://webte1.fei.stuba.sk/~xhrcan/SilvesterMakarone2">O mne</a> </li>
+					<li><a href="https://webte1.fei.stuba.sk/~xhrcan/SilvesterMakarone2/Zivotopis">Životopis</a> </li>
+					<li><a href="https://webte1.fei.stuba.sk/~xhrcan/SilvesterMakarone2/Moj_rozvrh">Môj Rozvrh</a> </li>
+				</ul>
+			</nav>
+			<button>Contact</button>
+		</header>
+
+		<section>
+			<h1><u>Word Search</u></h1>
+			<div id="word_search">
+				<div>
+					<h1 id="hkec" onclick="pressStart()">Press Start</h1>
+					<div id="puzzle">
+						<div id="answers"></div>
+						
+						<div id="table"></div>
+					</div>
+				</div>
+				<div>
+					<div class="sidenav">
+						<button id="cw_but" onclick="htpButton()">How to play</button>
+						<div id="points">Points: </div>
+						<div id="level">Level: </div>
+						<div id="timer">Timer: </div>
+						<button id="next" onclick="nextLevel()">Next level</button>
+						<button id="hintbtn" onclick="showHints()">Hint</button>
+						<div>
+							<ul id="solution"></ul>
+						</div>
+					</div>
+					<div id="hintdiv">
+						<button onclick="hideHints()">Hide hints</button>
+						<ul id="hint"></ul>
+						<div id="timerhint">Timer: </div>
+					</div>
+				</div>
+
+				<div id="above">
+					<div class="overlay"></div>
+					<div class="content" id="content">
+						<button id="bg">x</button>
+						<video id="video" width="800" controls autoplay>
+							<source src="HTP.mp4" type="video/mp4">
+							Your browser does not support HTML video.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div id="printable">
+				<p>
+					The point of the game is to take letters from the table and put them in the answer box. 
+					Each word starts with a capital letter and is related to the theme displayed above the answer box. 
+					Use hints to figure out which words you are looking for. 
+					The faster you find all the words, the more points you will earn. 
+					You won't get any bonus clock points if you spend more than 240s on a level, or if you click the next level button.
+				</p>
+				<h1>Hints</h1>
+				<div id="hint_printable">
+					<h2 id="hdva">E</h2>
+				</div>
+			</div>
+		</section>
+
+		<br>
+
+		<footer>
+			<address>
+				Stránku vytvoril: <abbr title="xhrcan@stuba.sk">Jan Hrćan</abbr>.<br> 
+			</address>
+		</footer>
+		<script src="js/Sortable.js"></script>
+		<script src="js/Sortable.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

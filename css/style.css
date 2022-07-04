@@ -1,0 +1,289 @@
+body{
+	background-color: #202731;
+	color: white;
+	font-size: 24px;
+	height: 100%;
+	margin: 0%;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+img {
+    margin: 10px 12px 4px;
+	vertical-align: middle;
+}
+
+a, button {
+	font-weight: 500;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+header {
+	background-color: #D90B1C;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+footer {
+	background-color: #D90B1C;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 10%;
+	color: white;
+	margin-bottom: 0px;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a:hover {
+	color: aqua;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: #FAF566;
+	color: #000;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: #bebb5e;
+}
+
+section {
+	padding: 20px;
+}
+
+#word_search {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	padding-left: 5%;
+	height: 560px;
+	position: relative;
+	border: white 3px solid;
+	border-radius: 10px;
+}
+
+#puzzle {
+	height: 560px;
+	width: 90%;
+	text-align: center;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#hkec {
+	width: 90%;
+	cursor: pointer;
+}
+
+#table {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#answers {
+	grid-column: 1 / 11;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	border: white 1px solid;
+	height: 56px;
+	margin-bottom: 20px;
+}
+
+.sidenav {
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: -3px;
+	left: -3px;
+	margin-left: 60%;
+	overflow-x: hidden;
+	border: white 3px solid;
+	border-radius: 0 10px 10px 0;
+}
+
+.sidenav div {
+	padding: 6px 8px 6px 16px;
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+
+.sidenav #cw_but {
+	margin: 20px;
+	background-color: #D90B1C;
+	color: white;
+}
+
+.sidenav #cw_but:hover {
+	background-color: #a5121e;
+}
+
+.sidenav #next {
+	margin: 20px;
+	margin-bottom: 20px;
+	background-color: #D90B1C;
+	color: white;
+}
+
+.sidenav #next:hover {
+	background-color: #a5121e;
+}
+
+.sidenav #hintbtn {
+	margin-left: 20px;
+	margin-top: 10px;
+	background-color: #D90B1C;
+	color: white;
+}
+
+.sidenav #hintbtn:hover {
+	background-color: #a5121e;
+}
+
+#hintdiv {
+	display: none;
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: -3px;
+	left: -3px;
+	margin-left: 60%;
+	overflow-x: hidden;
+	border: white 3px solid;
+	border-radius: 0 10px 10px 0;
+}
+
+#hintdiv button {
+	margin: 20px;
+}
+
+#hint {
+	margin: 20px;
+}
+
+#timerhint {
+	margin: 20px;
+}
+
+#above .overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 1;
+	display: none;
+}
+
+#above .content {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -20%) scale(0);
+	background: #D90B1C;
+	text-align: center;
+	box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+	z-index: 2;
+}
+
+#above.active .overlay {
+	display: block;
+}
+
+#above.active .content {
+	transition: all 300ms ease-in-out;
+	transform: translate(-50%, -20%) scale(1);
+}
+
+#bg {
+	float: right;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 10%;
+}
+
+#bg:hover {
+	background-color: rgb(24, 23, 23);
+}
+
+#solution {
+	display: none;
+}
+
+#printable {
+	display: none;
+}
+
+@media (min-width: 200px) {
+	body {
+		font-size: 15px;
+	}
+	button {
+		font-size: 18px;
+	}
+	video {
+		width: 500px;
+	}
+}
+
+@media (min-width: 1100px) {
+	body {
+		font-size: 18px;
+	}
+	button {
+		font-size: 22px;
+	}
+	video {
+		width: 800px;
+	}
+}
+
+@media print {
+
+	/* Hide */
+	header,
+	footer,
+	button,
+	#word_search {
+		display: none;
+	}
+
+	/* Styles */
+	body, h1 {
+		color: #000;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 25px;
+	}
+
+	#printable {
+		display: block;
+	}
+}

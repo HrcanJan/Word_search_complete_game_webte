@@ -1,0 +1,129 @@
+[
+    {
+        "title" : "Countries",
+        "words" : ["Pakistan", "Canada", "Italy", "Russia", "Japan", "Iran", "Mexico", "Peru", "Turkey"],
+        "hints" : [
+                    "2nd most populated Islamic state",
+                    "2nd largest country by area",
+                    "Mama mia, pizzeria",
+                    "The largest republic in the former Union of Soviet Socialist Republic",
+                    "The word tsunami originates from this language",
+                    "Almost got involved in a global war in 2020",
+                    "Tacos, Buritos, Sombreros",
+                    "Natural habitat to llamas",
+                    "The Ottoman Empire"
+                  ]
+    },
+    {
+        "title" : "Cities",
+        "words" : ["Jerusalem", "London", "Riyadh", "Venice", "Mumbai", "Paris", "Dhaka", "Wuhan", "Riga"],
+        "hints" : [
+                    "Jewish capital",
+                    "Capital starting with the letter L",
+                    "Capital of an Arabic country",
+                    "Italian city famous for river streets",
+                    "The 2nd largest city in India",
+                    "Eiffel Tower",
+                    "Capital of the 3rd most populated Islamic country",
+                    "Where Covid outbreak started",
+                    "Capital of a Baltic country"
+                  ]
+    },
+    {
+        "title" : "People",
+        "words" : ["Rihanna", "Tesla", "Mandela", "Caesar", "Napoleon", "Lincoln", "Stalone", "Kocur", "Jolie"],
+        "hints" : [
+                    "Famous pop singer from Barbados",
+                    "Invented Alternate Current",
+                    "An effect of mass misremembering was named after him",
+                    "Stabbed 23 times in the back",
+                    "Greatest military strategist in the history",
+                    "American civil war",
+                    "Rocky Balboa",
+                    "Is my lecturer for this course",
+                    "Actress, divorced Brad Pitt"
+                  ]
+    },
+    {
+        "title" : "Jobs",
+        "words" : ["Clerk", "Janitor", "Painter", "Actress", "Agent", "Dean", "Baker", "Secretary", "Teacher"],
+        "hints" : [
+                    "Other word for cashier",
+                    "Other word for cleaner",
+                    "Other word for painter",
+                    "They pretend to be someone else",
+                    "People in black",
+                    "The head of college",
+                    "Works with pastry",
+                    "Handles calls for others",
+                    "Works in schools"
+                  ]
+    },
+    {
+        "title" : "Animals",
+        "words" : ["Cat", "Dog", "Horse", "Ant", "Mouse", "Racoon", "Rabbit", "Camel", "Caracal"],
+        "hints" : [
+                    "First two are house pets",
+                    "Stables",
+                    "Colony",
+                    "Likes cheese",
+                    "Likes trash and fast food",
+                    "Stereotyped to eat carrots",
+                    "Desert animal",
+                    "Medium sized cat (Big floppa)"
+                  ]
+    },
+    {
+        "title" : "Planets",
+        "words" : ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"],
+        "hints" : [
+          "All solar system planets"
+        ]
+    },
+    {
+        "title" : "Colors",
+        "words" : ["Blue", "Yellow", "White", "Green", "Violet", "Maroon", "Lime", "Cyan", "Red"],
+        "hints" : [
+          "Only hint: three colors are shades of brown, green and blue respectively"
+        ]
+    },
+    {
+        "title" : "Objects",
+        "words" : ["Socks", "Guitar", "Glasses", "Mug", "Pencil", "Book", "Door", "Spoon", "Pistol"],
+        "hints" : [
+          "Keeps your feet warm",
+          "String instrument",
+          "Vision aid",
+          "Pour your coffee in it",
+          "Use it to write",
+          "Learn something from it",
+          "Opened and closed",
+          "Soup's companion",
+          "Usp, Glock, Deagle"
+        ]
+    },
+    {
+        "title" : "Materials",
+        "words" : ["Wood", "Gold", "Copper", "Aluminium", "Plastic", "Rubber", "Iron", "Glass", "Silver"],
+        "hints" : [
+          "Three are great insulators",
+          "Two are great current conductors",
+          "Two are great rewards for acomplishing great things",
+          "Common to find in cabins",
+          "Robert Downey Junior"
+        ]
+    },
+    {
+        "title" : "Food",
+        "words" : ["Beef", "Tomato", "Potato", "Pork", "Fish", "Spinach", "Burger", "Pepper", "Mutton"],
+        "hints" : [
+          "Three are meat that come from common farm animals",
+          "One of the previous is used for making this fast food",
+          "Animal meat that is very healthy",
+          "Popeye",
+          "Kethcup",
+          "RHCP",
+          "Fries"
+        ]
+    }
+]

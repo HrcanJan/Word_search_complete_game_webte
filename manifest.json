@@ -1,0 +1,22 @@
+{
+    "name" : "Word Search",
+    "short_name" : "Word Search",
+    "start_url" : ".",
+    "background_color" : "#202731" ,
+    "theme_color" : "#D90B1C",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "fei.png",
+            "sizes" : "192x192",
+            "type" : "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src" : "fei512.png",
+            "sizes" : "512x512",
+            "type" : "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
